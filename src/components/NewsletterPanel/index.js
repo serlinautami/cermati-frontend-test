@@ -20,7 +20,6 @@ const NewsletterPanel = () => {
     const localCache = localStorage.getItem('newslettter_status')
 
     if(doc && !visible && scroll && !localCache) {
-      console.log('scrollTop', scrollTop)
 
       if(scrollTop >= 100) {
         setTimeout(() => {
