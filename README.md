@@ -1,8 +1,11 @@
 # Fronted Entry test for Cermati.com
 
 Coder: Serlina Utami
+
 url: https://serlina-utami.vercel.app/
+
 build with: Love :), HTML , CSS, JS, React JS
+
 deploy with: Vercel
 
 How to run: 
