@@ -1,0 +1,13 @@
+.site-header {
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 24px 0;
+  z-index: 2;
+}
+
+.site-header-logo {
+  width: 50px;
+}

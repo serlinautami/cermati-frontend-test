@@ -1,0 +1,66 @@
+.notification-panel {
+  background-color: #ffffff;
+  transition: 1s;
+  overflow: hidden;
+  max-height: 100px;
+}
+
+.notification-panel.hidden {
+  max-height: 0;
+}
+
+.notification-panel-container {
+  padding: 16px 24px;
+  max-width: 720px;
+  margin: 0 auto 0 auto;
+}
+
+.notification-panel-content {
+  display: flex;
+}
+
+.notification-panel-content-text {
+  font-size: 14px;
+  line-height: 1.6;
+  flex: 1;
+  padding-right: 16px;
+}
+
+.notification-panel p {
+  margin: 0;
+}
+
+.notification-panel a {
+  text-decoration: none;
+}
+
+.notification-panel-content-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.notification-panel-button {
+  background-color: #007bc1;
+  color: #fff;
+  padding: 8px 16px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .notification-panel {
+    max-height: 200px;
+  }
+  .notification-panel-content {
+    flex-wrap: wrap;
+  }
+  .notification-panel-content-text {
+    width: 100%;
+    flex: auto;
+    margin-bottom: 16px;
+    padding-right: 0;
+  }
+}

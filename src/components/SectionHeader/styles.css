@@ -1,0 +1,31 @@
+.section-header {
+  position: relative;
+  color: #2D3035;
+}
+
+.section-header.is-dark {
+  color: #ffffff;
+}
+
+.section-header.align-center {
+  text-align: center;
+}
+
+.section-header-title {
+  font-size: 32px;
+  font-weight: 300;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.section-header-subtitle {
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.section-header-description {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
